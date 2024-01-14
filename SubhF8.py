@@ -69,7 +69,6 @@ def parse_arguments():
 
     args = parser.parse_args()
 
-    # Добавление префикса 'https://' если он отсутствует
     if not args.domain.startswith(('http://', 'https://')):
         args.domain = 'https://' + args.domain
 
@@ -122,7 +121,7 @@ def progress_monitor(progress_report, timeout=300):
         if time.time() - start_time > timeout:
             logging.warning(f"Waiting time has been exceeded. Checked {checked} subdomains. Found working subdomains: {found}")
             break
-        logging.info(f'Checked {checked} from {base_count} subdomains ...... FIND: {found}')
+        logging.info(f'Checked {checked} from {base_count} subdomains ....... FIND: {found}')
         time.sleep(5)
 
 def create_directory_for_results(domain):
