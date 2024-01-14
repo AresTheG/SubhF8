@@ -1,6 +1,8 @@
 ## About SubhF8
 
-SubhF8 is a powerful Python tool designed for analyzing subdomains of websites. This tool can be useful for both penetration testers and web server administrators. SubhF8 is based on open-source intelligence (OSINT) and provides the capability to discover subdomains of a website using various methods.
+SubhF8 is a powerful Python tool designed to search and analyze website subdomains. 
+This tool can be useful for both penetration testers and web server administrators.
+The script provides the ability to detect website subdomains by searching through them from the database file.
 
 ##  Features
 * Search for subdomains of a specified domain.
@@ -80,11 +82,11 @@ python SubhF8.py -d example.com -n results.txt -w 8 -l
 
 ## License
 
-SubhF8 is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/aboul3la/Sublist3r/blob/master/LICENSE) for more information.
+SubhF8 is licensed under the GNU GPL license. Take a look at the LICENSE for more information.
 
 ## Credits
 
-The code is developed by Ares
+The code is developed by Ares.
 
 ## Version
 
