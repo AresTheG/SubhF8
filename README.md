@@ -32,6 +32,8 @@ c:\python27\python.exe -m pip install -r requirements.txt
 ```
 sudo pip install -r requirements.txt
 ```
+### If you need to use a large base (more than 4M subdomains), you need to unpack txt from the archive (part 1, part2) into the directory with the script.
+
 
 ## Recommended Python Version:
 
